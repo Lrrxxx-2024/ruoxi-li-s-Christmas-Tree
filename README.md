@@ -1,20 +1,49 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# 🎄 Memory Christmas Tree
+
+**将你的珍贵回忆，拼成一棵独一无二的圣诞树。**
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## ✨ 简介
 
-View your app in AI Studio: https://ai.studio/apps/8110c95d-823c-4da4-b28f-589e5febc075
+Memory Christmas Tree 是一个互动式网页应用，你可以将自己喜爱的照片或画作上传到页面中，它们会以独立卡片的形式展示。当你准备好后，只需轻轻一点，所有作品便会汇聚在一起，组合成一棵闪亮的圣诞树。
 
-## Run Locally
+## 🎮 使用方式
 
-**Prerequisites:**  Node.js
+| 操作 | 说明 |
+| --- | --- |
+| **Add Memory** | 点击此按钮上传你的照片或画作，每一张都是圣诞树上的一片记忆 |
+| **Assemble** | 点击后，所有散落的照片将飞向中央，拼合成一棵完整的圣诞树 |
+| **Scatter Magic** | 点击后，圣诞树会魔法般地散开，让每张照片回到独立展示的状态 |
+| **鼠标滚轮缩放** | 将鼠标悬停在任意一张画作上，滚动鼠标滚轮即可对该作品进行放大或缩小 |
 
+## 🖼️ 功能特色
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **自由上传** — 支持添加任意数量的照片或画作
+- **一键组合** — 照片自动排列组合为圣诞树造型
+- **散开展示** — 轻松切换到画廊模式，逐一欣赏每张作品
+- **滚轮缩放** — 鼠标悬停 + 滚轮操作，快速查看作品细节
+- **流畅动画** — 组合与散开过程均带有丝滑的过渡动效
+
+## 🚀 本地运行
+
+**前置要求：** 已安装 Node.js
+
+```bash
+# 1. 安装依赖
+npm install
+
+# 2. 在 .env.local 中配置你的 API Key
+#    GEMINI_API_KEY=your_api_key_here
+
+# 3. 启动开发服务器
+npm run dev
+```
+
+## 📝 许可证
+
+MIT License
